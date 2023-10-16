@@ -1,0 +1,30 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    background-color: #fff;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    align-items: center;
+
+
+
+
+    &__list{
+        display: flex;
+        
+    }
+    &__link{
+        margin-right: 30px;
+    }
+    &__media{
+        display: flex;
+
+
+            
+}
+&__instagram{
+    margin-right: 30px;
+}
+}

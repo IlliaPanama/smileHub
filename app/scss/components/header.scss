@@ -1,0 +1,38 @@
+.header {
+    height: 100vh;
+    background-image: url(../../images/header/bg.jpg);
+    background-position: right top 75px;
+    background-repeat: no-repeat;
+    background-size: 62% auto;
+    background-color: #F8F8F8;
+    ;
+
+
+
+    &__left {
+        margin-top: 20%;
+    }
+
+    &__text {
+        color:  #545454;
+        font-family: Raleway;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        /* 136.364% */
+        max-width: 430px;
+        margin-bottom: 50px;
+    }
+
+    &__btn {
+        background-color: #D6DB9E;
+        color: #fff;
+        border: none;
+        border-radius: 25px;
+        width: 248px;
+        height: 54px;
+        cursor: pointer;
+
+    }
+}

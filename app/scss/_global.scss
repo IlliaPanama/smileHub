@@ -1,0 +1,54 @@
+html{
+  scroll-behavior: smooth;
+}
+html,
+.body {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+.footer {
+  flex: 0 0 auto;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.title{
+  color: #152D07;
+  font-family: Bangla MN;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.subtitle{
+  color:  #000;
+  font-family: Raleway;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.logo{
+  z-index: 10;
+}

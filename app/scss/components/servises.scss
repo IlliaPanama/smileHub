@@ -1,0 +1,81 @@
+.servises {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background-color: #F8F8F8;
+
+    &__title {
+        margin-bottom: 50px;
+    }
+
+    &__text {
+        color: #545454;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        margin-bottom: 35px;
+        max-width: 724px;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 25px;
+        gap: 20px;
+        padding-bottom: 15px;
+    }
+
+    &__item {
+        border: 1px solid #152D07;
+
+        padding: 20px;
+        border-radius: 25px;
+        // max-width: 230px;
+        // max-height: 190px;
+        // width: calc(50% - 20px);
+        width: 100%;
+
+
+    }
+
+    &__link {}
+
+    &__content {
+        background-color: #152D07;
+        padding: 50px;
+        max-width: 230px;
+        max-height: 190px;
+        border-radius: 25px;
+        color: white;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 190px;
+        transition: box-shadow 0.5s;
+        /* Добавляем анимацию для свойства box-shadow */
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+    &__content:hover {
+
+        box-shadow: 0 0 0 30px #152D07;
+
+    }
+
+    &__content:active {
+        transform: translateY(0);
+        box-shadow: none;
+    }
+
+    &__content img {
+        margin-bottom: 20px;
+
+    }
+
+    &__subtitle {
+        text-align: center;
+    }
+}
