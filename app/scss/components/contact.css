@@ -1,0 +1,126 @@
+@charset "UTF-8";
+.contact {
+  padding-top: 80px;
+  background-color: #F8F8F8;
+}
+.contact__title {
+  margin-bottom: 50px;
+}
+.contact__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+.contact__text {
+  color: #545454;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  max-width: 471px;
+  max-height: 56px;
+  margin-bottom: 75px;
+}
+.contact__item {
+  margin-bottom: 45px;
+  padding-left: 70px;
+  position: relative;
+}
+.contact__item1 {
+  display: flex;
+  flex-direction: column;
+}
+.contact__item1::before {
+  content: "";
+  background-image: url(../../images/contact/tel.svg);
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  left: 0;
+  bottom: 0;
+}
+.contact__item2::before {
+  content: "";
+  background-image: url(../../images/contact/clock.svg);
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  left: 0;
+  bottom: 0;
+}
+.contact__item3::before {
+  content: "";
+  background-image: url(../../images/contact/point.svg);
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  left: 0;
+  bottom: 0;
+}
+.contact__span {
+  display: inline-block;
+  color: #808080;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.contact__info {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.contact__tel {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 5px;
+}
+.contact__subtitle {
+  color: #000;
+  font-family: Raleway;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 35px;
+  max-width: 208px;
+  max-height: 72px;
+  margin-bottom: 30px;
+}
+.contact__form {
+  display: flex;
+  flex-direction: column;
+}
+.contact__input {
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #A3A3A3;
+  /* Толщина и цвет полоски снизу */
+  padding: 5px;
+  /* Отступы вокруг текста в инпуте */
+  outline: none;
+  /* Убираем контур фокуса (при нажатии) */
+  background-color: transparent;
+  /* Прозрачный фон */
+  transition: border-color 0.3s;
+  min-width: 400px;
+}
+.contact__btn {
+  background-color: #D6DB9E;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  max-width: 248px;
+  max-height: 54px;
+}
+.contact__map {
+  width: 100%;
+}/*# sourceMappingURL=contact.css.map */
